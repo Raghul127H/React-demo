@@ -1,0 +1,27 @@
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sand{
+    background-color: rgb(45, 135, 135);
+    margin-top:50px ;
+    height:300px ;
+    width:400px ;   
+}   
+.bok{
+    text-align: center;
+    color: rgb(2, 2, 37);
+}
+.and{
+    margin-left: 100px;
+}
+.cl{
+    margin-left: 100px;
+}
+.lo{
+    margin-left: 100px;
+}
+

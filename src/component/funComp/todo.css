@@ -1,0 +1,38 @@
+.but{
+  display: flex;
+  margin: 40px;
+
+}
+.man{
+    background-color:black;
+    width: 800px;
+    border-radius: 50px;
+}
+.sun{
+    background-color: brown;
+    margin-top: 100px;
+    height: 500px;
+}
+.on{
+    position: relative;
+    left: 400px;
+    bottom : -20px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+.exp{
+    background-color: cadetblue;
+    color:white;
+    width: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+

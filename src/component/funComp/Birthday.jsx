@@ -81,7 +81,7 @@ const Birthday = () => {
   );
 
 const handleremove=()=>{
-   Setdata([])
+   Setdata([])    
 }
 
 

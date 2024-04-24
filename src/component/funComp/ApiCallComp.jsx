@@ -1,36 +1,84 @@
-import React, { useState }  from "react";
-
+import React, { useEffect, useState } from 'react'
+import CardComp from '../Common/CardComp';
 
 function ApiCallComp() {
-const[func,setfunc]=useState([])
-  
 
-const handleapi = async ()=>{
-  const response =  await fetch("https://fakestoreapi.com/products");
-  const data = await response.json();
-  console.log(data);
-};
-  
-    return(
-      <div>
-        {func.map((da,i)=>(
-          <div key={i}>
-            {da.image}
+    const [resdata, setresdata] = useState([])
 
-          </div>
+    useEffect(() => {
 
-        ))}
+        handleapi()
 
 
-          <h1></h1>
+    }, [])
 
-    <button onClick={handleapi}>Api call</button>
+    const handleapi = async () => {
+
+        const response = await fetch("https://fakestoreapi.com/products");
+        const data = await response.json();
+
+        setresdata(data)
+
+        console.log(data);
+    };
+
+    return (
+        <div>
+            
+<div className="container">
+    <div className="row">
+           
+            {resdata.map((todo, i) => (
+                <div key={i}>
+
+                    <div className="col-4 mt-4">
 
 
-      </div>
-    );
-
-    }
+                <CardComp data ={todo}/>
+                </div>
 
 
-export default ApiCallComp;
+                   
+                </div>
+                
+
+
+
+
+
+
+
+
+            )
+
+
+
+            )
+            }
+
+            <button onClick={handleapi}>Api call</button>
+
+
+
+        </div>
+        </div>
+
+        </div>
+
+
+
+    )
+
+
+
+
+
+
+
+
+
+
+}
+
+
+export default ApiCallComp
