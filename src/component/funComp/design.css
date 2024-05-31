@@ -65,7 +65,7 @@
 }
 
 /* Page Content */
-.content {
+/* .content {
   
   overflow: hidden; 
   
@@ -77,7 +77,7 @@
     padding-left: 550px;
     
 
-} */
+/* }
 .iphone-content{
     padding-left: 50px;
     padding-top: 20px;
@@ -92,7 +92,7 @@
   margin-right: 150px;
    margin-left: 50px;
    margin-top: 40px;
-}
+} */
 
 .main-content {
   padding: 20px;
@@ -198,6 +198,7 @@ margin-right: 10px;
     padding-bottom: 20px;
     align-items: center;
    font-size: 25px;
+   
 }
 .time{
   display: flex;
@@ -265,4 +266,4 @@ margin-right: 550px;
   display: flex;
   justify-content: center;
   margin: 20px ;
-}
+} */ */

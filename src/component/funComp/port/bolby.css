@@ -1,0 +1,58 @@
+.hel{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.raghul{
+      background-color: black;
+      height:40px;
+      text-align: center;
+      padding: 5px;
+}     
+.joe{
+    height:450px;
+    width: auto;
+    background-color: brown;
+    text-align: center;
+    margin-left: -50px; 
+}
+.aa{
+    color: white;
+    margin-top: -0px;
+
+}
+.bb{
+
+    color: white;
+}
+.hr{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.colour{
+      font-size: 50px;
+      padding: 10px;
+      color:black;
+}
+.tr{
+  /* padding-right: 0%; */
+  display: flex;
+  gap: 40px;
+  margin:50px;
+  text-decoration: none;
+  flex-direction: column;
+  position: relative;
+  left: -600px;
+
+}
+.service{
+    text-decoration: none;
+}

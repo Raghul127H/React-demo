@@ -43,8 +43,11 @@ import CounterRedux from "./Component/CounterRedux";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import Figma from "./Component/funComp/Figma";
-
-
+import Bolby from "./Component/funComp/port/Bolby.jsx"
+import Aboutme from "./Component/funComp/port/Aboutme.jsx"
+import Skill from "./Component/funComp/port/skill.jsx"
+import Mytech from "./Component/funComp/port/Mytech.jsx";
+import Project from "./Component/funComp/port/Project.jsx"
 
 
 
@@ -59,7 +62,7 @@ function App() {
   
    
    
-   return (
+   return ( 
       
      <div>
       {/* <Provider store={store}>
@@ -109,8 +112,12 @@ function App() {
             {/* </Routes> 
 
       </BrowserRouter></div> */} 
-      <Figma/>
-   </div>
-   )
-}
+      {/* <Figma/> */}
+      <Bolby/>
+      <Aboutme/>
+      <Skill/>
+      <Mytech/>
+      <Project/>
+      </div>
+   )}
 export default App;
