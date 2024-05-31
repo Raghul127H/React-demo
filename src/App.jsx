@@ -81,9 +81,9 @@ function App() {
 
             {/* <Todolist/> */}
             {/* <CounterProvider>
-               <HeaderComp />
+               <HeaderComp /> */}
                <Product />
-            </CounterProvider> */}
+            {/* </CounterProvider> */}
 
         
 
@@ -113,11 +113,11 @@ function App() {
 
       </BrowserRouter></div> */} 
       {/* <Figma/> */}
-      <Bolby/>
+      {/* <Bolby/>
       <Aboutme/>
-      <Skill/>
-      <Mytech/>
-      <Project/>
-      </div>
-   )}
+       <Skill/>
+       <Mytech/>
+       <Project/> */}
+       </div>
+    )} 
 export default App;
